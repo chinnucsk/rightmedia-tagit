@@ -5,7 +5,7 @@
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>tagit@rightmedia.com</em:id>
 		<em:name>tag.it</em:name>
-		<em:version>1.0.2.3</em:version>
+		<em:version>1.0.2.4</em:version>
 		<em:type>2</em:type>
 		<em:creator>Yahoo! Right Media</em:creator>
 		<em:description>"tag.it" is a beta extension developed by Yahoo! that allows users of the Right Media Exchange to view and decode live ads served under RMX for the purpose of quickly identifying and banning problematic ads that have violated policy on the exchange.

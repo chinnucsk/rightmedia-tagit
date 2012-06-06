@@ -183,7 +183,8 @@ var LogWindow = {
                 os.init( picker.file, MODE, PERM, 0 );
 
                 // plain txt file format
-                if( picker.file.target.indexOf('.txt') != -1 ) {
+                // use picker.file.path instead of file.target - in Mac/Linux they will break
+                if( picker.file.path.indexOf('.txt') != -1 ) {
                     log_window_data = this.export_as_txt();
                 } else { // comma separated values
                     log_window_data = this.export_as_csv();
